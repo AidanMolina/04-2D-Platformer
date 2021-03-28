@@ -10,7 +10,7 @@ var nav = null
 var speed = 175
 
 func _ready():
-	position = start_position[Global.level -1]
+	position = start_position[Global.save_data["level"] -1]
 
 func _physics_process(_delta):
 	if nav == null:

@@ -7,5 +7,5 @@ func _ready():
 
 func _on_Door_body_entered(body):
 	if body.name == "Player":
-		Global.level = 2
+		Global.save_data["level"] = 2
 		var _s = get_tree().change_scene("res://Levels/Level2.tscn")

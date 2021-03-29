@@ -333,9 +333,13 @@ texture = ExtResource( 7 )
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Door"]
 polygon = PoolVector2Array( 36.5, 35, -36.5, 35, -36.5, -35, 36.5, -35 )
 
-[node name="Coins" type="Node2D" parent="."]
+[node name="Coins" type="Node2D" parent="." groups=[
+"persist",
+]]
 
-[node name="Coin" type="Area2D" parent="Coins"]
+[node name="Coin" type="Area2D" parent="Coins" groups=[
+"persist",
+]]
 position = Vector2( 144, 544 )
 script = ExtResource( 8 )
 __meta__ = {
@@ -348,7 +352,9 @@ texture = ExtResource( 9 )
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Coins/Coin"]
 polygon = PoolVector2Array( 15.5, 15, -15.5, 15, -15.5, -15, 15.5, -15 )
 
-[node name="Coin2" type="Area2D" parent="Coins"]
+[node name="Coin2" type="Area2D" parent="Coins" groups=[
+"persist",
+]]
 position = Vector2( 600, 488 )
 script = ExtResource( 8 )
 __meta__ = {
@@ -361,7 +367,9 @@ texture = ExtResource( 9 )
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Coins/Coin2"]
 polygon = PoolVector2Array( 15.5, 15, -15.5, 15, -15.5, -15, 15.5, -15 )
 
-[node name="Coin3" type="Area2D" parent="Coins"]
+[node name="Coin3" type="Area2D" parent="Coins" groups=[
+"persist",
+]]
 position = Vector2( 1160, 240 )
 script = ExtResource( 8 )
 __meta__ = {
@@ -374,7 +382,9 @@ texture = ExtResource( 9 )
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Coins/Coin3"]
 polygon = PoolVector2Array( 15.5, 15, -15.5, 15, -15.5, -15, 15.5, -15 )
 
-[node name="Coin4" type="Area2D" parent="Coins"]
+[node name="Coin4" type="Area2D" parent="Coins" groups=[
+"persist",
+]]
 position = Vector2( 1120, 544 )
 script = ExtResource( 8 )
 __meta__ = {
@@ -387,7 +397,9 @@ texture = ExtResource( 9 )
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Coins/Coin4"]
 polygon = PoolVector2Array( 15.5, 15, -15.5, 15, -15.5, -15, 15.5, -15 )
 
-[node name="Coin5" type="Area2D" parent="Coins"]
+[node name="Coin5" type="Area2D" parent="Coins" groups=[
+"persist",
+]]
 position = Vector2( 1544, 432 )
 script = ExtResource( 8 )
 __meta__ = {
@@ -400,7 +412,9 @@ texture = ExtResource( 9 )
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Coins/Coin5"]
 polygon = PoolVector2Array( 15.5, 15, -15.5, 15, -15.5, -15, 15.5, -15 )
 
-[node name="Coin6" type="Area2D" parent="Coins"]
+[node name="Coin6" type="Area2D" parent="Coins" groups=[
+"persist",
+]]
 position = Vector2( 1904, 376 )
 script = ExtResource( 8 )
 __meta__ = {
@@ -413,7 +427,9 @@ texture = ExtResource( 9 )
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Coins/Coin6"]
 polygon = PoolVector2Array( 15.5, 15, -15.5, 15, -15.5, -15, 15.5, -15 )
 
-[node name="Coin7" type="Area2D" parent="Coins"]
+[node name="Coin7" type="Area2D" parent="Coins" groups=[
+"persist",
+]]
 position = Vector2( 2320, 304 )
 script = ExtResource( 8 )
 __meta__ = {
